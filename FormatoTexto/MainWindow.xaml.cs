@@ -30,47 +30,47 @@ namespace FormatoTexto
 
         private void negritaCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            formatoTextBox.FontWeight = FontWeights.Bold;
+            formatoTextBlock.FontWeight = FontWeights.Bold;
 
         }
         private void negritaCheckBox_UnChecked(object sender, RoutedEventArgs e)
         {
 
-            formatoTextBox.FontWeight = FontWeights.Normal;
+            formatoTextBlock.FontWeight = FontWeights.Normal;
 
         }
 
         private void cursivaCheckBox_Checked(object sender, RoutedEventArgs e)
         {
 
-            formatoTextBox.FontStyle = FontStyles.Italic;
+            formatoTextBlock.FontStyle = FontStyles.Italic;
 
         }
         private void cursivaCheckBox_UnChecked(object sender, RoutedEventArgs e)
         {
 
-            formatoTextBox.FontStyle = FontStyles.Italic;
+            formatoTextBlock.FontStyle = FontStyles.Italic;
 
         }
 
         private void azulRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            formatoTextBox.Foreground = Brushes.Blue;
+            formatoTextBlock.Foreground = Brushes.Blue;
         }
 
         private void rojoRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            formatoTextBox.Foreground = Brushes.Red;
+            formatoTextBlock.Foreground = Brushes.Red;
         }
 
         private void verdeRadioButton_Checked(object sender, RoutedEventArgs e)
         {
-            formatoTextBox.Foreground = Brushes.Green;
+            formatoTextBlock.Foreground = Brushes.Green;
         }
 
         private void escrituraTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            formatoTextBox.Text = escrituraTextBox.Text;
+            formatoTextBlock.Text = escrituraTextBox.Text;
         }
     }
 }

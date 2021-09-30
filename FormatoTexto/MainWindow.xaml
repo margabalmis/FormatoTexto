@@ -47,8 +47,8 @@
                   VerticalAlignment="Top"
                   FontSize="16"
                   FontWeight="Bold"
-                  Checked="negritaCheckBox_Checked" 
-                  Unchecked="negritaCheckBox_UnChecked"/>
+                  Checked="negritaCheckBox_Checked"
+                  Unchecked="negritaCheckBox_UnChecked" />
         <CheckBox x:Name="cursivaCheckBox"
                   Content="Cursiva"
                   HorizontalAlignment="Left"
@@ -57,22 +57,7 @@
                   FontSize="16"
                   FontStyle="Italic"
                   Checked="cursivaCheckBox_Checked"
-                  Unchecked="cursivaCheckBox_UnChecked"/>
-        <TextBox x:Name="formatoTextBox"
-                 IsReadOnly="True"
-                 HorizontalAlignment="Left"
-                 Height="58"
-                 Margin="52,273,0,0"
-                 TextWrapping="Wrap"
-                 VerticalAlignment="Top"
-                 Width="691"
-                 Background="#FFEBFFD6"
-                 FontSize="16">
-            <TextBox.BorderBrush>
-                <SolidColorBrush Color="#FFABADB3"
-                                 Opacity="0" />
-            </TextBox.BorderBrush>
-        </TextBox>
+                  Unchecked="cursivaCheckBox_UnChecked" />
         <TextBlock x:Name="colorTextBlock"
                    HorizontalAlignment="Left"
                    Margin="522,153,0,0"
@@ -82,12 +67,23 @@
                    FontSize="16" />
         <TextBox x:Name="escrituraTextBox"
                  HorizontalAlignment="Left"
-                 Height="187"
-                 Margin="52,46,0,0"
+                 Height="139"
+                 Margin="52,94,0,0"
                  TextWrapping="Wrap"
                  VerticalAlignment="Top"
-                 Width="231"
+                 Width="190"
                  TextChanged="escrituraTextBox_TextChanged" />
+        <TextBlock x:Name="formatoTextBlock"
+                   HorizontalAlignment="Left"
+                   Margin="52,296,0,0"
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Top"
+                   Height="46"
+                   Width="691"
+                   TextTrimming="WordEllipsis"
+                   Background="#FFBCF3C6"
+                   TextAlignment="Center"
+                   FontSize="14" />
 
     </Grid>
 </Window>
